@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+    <div class="bigcontainer">
+    <form>
+            <fieldset>
+                <legend>Application Form</legend>
+                <div class="leftcontainer">
+                    <p>Full Name:</p>
+                    <p>Email:</p>
+                    <p>Gender:</p>
+                    <p>Nationality:</p>
+                    <p>Skills:</p><br>
+                    <p class="A">Post Applying For:</p><br>
+                    <p class="B">Upload Resume:</p><br>
+                    <p class="C">Paste your resume:</p> 
+                </div>
+                <div class="rightcontainer">
+                    <input type="text" name="fullname"><br>
+                    <input type="text" name="email"><br>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female<br>
+                    
+                    <select name="" id="">
+                      <option value="">-Select-</option>
+                      <option value="">England</option>
+                      <option value="">Canadian</option>
+                    </select><br>
+                    <span>
+                    <input type="checkbox">ASP.NET
+                    <input type="checkbox">jQuery
+                    </span><br>
+                    <span class="move">
+                    <input type="checkbox">MVC
+                    <input type="checkbox">SQL
+                    </span><br>
+                  
+                    <span>
+                    <input type="radio" name="post" value="male"> Trainee
+                    <input type="radio" name="post" value="female"> Software Engineer
+                    </span><br>
+                    <span class="move">
+                    <input type="radio" name="post" value="female"> Team Leader
+                    <input type="radio" name="post" value="other"> Project Manager
+                    </span><br>
+                    <br>
+                    <button>Choose file</button><br>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <br>
+                    <input type="checkbox">Notify me the status via Email<br>
+                    <input type="checkbox">I agree to terms & conditions<br>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <style>
+    input{margin:10px;}
+    *{box-sizing: border-box;}
+    .bigcontainer{width:35%;float:left; }
+    .leftcontainer{width:30%;float:left;}
+    .rightcontainer{width:60%;float:left;}
+    </style>
+</body>
+</head>
+</html>
