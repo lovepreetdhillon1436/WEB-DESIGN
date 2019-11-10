@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #c0c0c0;
+	font-size: 16px;
+	font-family: arial;
+	color: black;
+
+}
+.nav_bar{
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	background: #000;
+	color: #fff;
+	top: 0;
+	position: fixed;
+}
+.nav{
+	width: 960px;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 10%;
+	right: 10%;
+}
+.nav h1{
+	float:left;
+}
+.nav ul{
+	float: right;
+}
+.nav ul li{
+	float: left;
+	list-style-type: none;
+	padding: 15px 0 0 50px;
+	font-size: 20px;
+}
+.nav ul li:hover{
+	color: red;
+	position: fixed;
+}
+.body{
+	background: #fff;
+	width: 960px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+}
+.title{
+	margin: 100px 0 50px 50px;
+	padding-top: 10px;
+	color: red;
+}
+.content p{
+	color: green;
+	font-size: 12px;
+	line-height: 15px;
+	width: 80%;
+	margin-left: 50px;
+}
+.list{
+	padding-left: 30px;
+}
+.form{
+	width: 500px;
+	background: pink;
+	height: 350px;
+	position: relative;
+	margin: 0 auto;
+}
+form{
+	width: 350px;
+	margin: 0 auto;
+	border: 1px solid red;
+	background: grey;
+	border-radius: 20px;
+	position: absolute;
+	top:30px;
+	bottom: 100px;
+	left: 30px;
+	right: 30px;
+	padding: 20px;
+	height: 180px;
+	text-align: left;
+}
+.name, .address{
+	width: 280px;
+	margin-top: 10px;
+}
+.address{
+	height: 40px;
+}
+.lable{
+	margin-top: 20px;
+}
+form input[value="radio"]{
+	margin-top: 20px;
+}
+form input[value="female"]{
+	margin-left: 60px;
+}
+.form button{
+	position: absolute;
+	margin: 0 auto;
+	top: 80%;
+	left: 150px;
+	width: 175px;
+	height: 50px;
+	border border-radius: 10px;
+}
+.footer{
+	width: 100%;
+	background: #000;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
